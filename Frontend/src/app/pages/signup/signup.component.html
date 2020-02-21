@@ -1,0 +1,55 @@
+<div class="signup-container">
+  <mat-card class="signup-card">
+    <mat-card-header>
+      <mat-card-title>Signup</mat-card-title>
+      <mat-card-subtitle>to continue</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>First Name</mat-label>
+            <input matInput placeholder="" [(ngModel)]="firstname"/>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>Last Name</mat-label>
+            <input matInput placeholder="" [(ngModel)]="lastname"/>
+          </mat-form-field>
+        </p>
+      </div>
+
+      <p>
+        <mat-form-field appearance="outline" class="email">
+          <mat-label>Email or Phone</mat-label>
+          <input matInput placeholder="" [(ngModel)]="email"/>
+          <mat-icon matSuffix>lock</mat-icon>
+          <mat-hint>Enter your registerd email/phone</mat-hint>
+        </mat-form-field>
+      </p>
+      <div>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="" [(ngModel)]="password"/>
+            <mat-icon matSuffix>vpn_key</mat-icon>
+            <mat-hint>Enter Password</mat-hint>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="outline">
+            <mat-label>Confirm Password</mat-label>
+            <input type="password" matInput placeholder="" />
+            <mat-icon matSuffix>vpn_key</mat-icon>
+            <mat-hint>Re-enter Password</mat-hint>
+          </mat-form-field>
+        </p>
+      </div>
+    </mat-card-content>
+    <mat-card-actions class="">
+      <a href="" rel="noopener noreferrer">Sign in instead</a>
+      <button mat-fab color="primary" (click)="submitUserDetails()">NEXT</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

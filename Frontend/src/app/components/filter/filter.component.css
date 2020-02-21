@@ -1,0 +1,58 @@
+.filter-container {
+    padding-top: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.filter-container p {
+    font-weight: 500;
+}
+
+.filter-container .vertical-filters {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e9e9ed;
+    position: relative;
+    border-right: 1px solid #edebef;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    width: 15em;
+}
+
+.filter-container .vertical-filters .vertical-filters-header {
+    border-bottom: none;
+    padding-bottom: 0%;
+}
+
+.filter-container .vertical-filters .vertical-filters-header .categories-list,
+.filter-container .vertical-filters .vertical-filters-header .categories-list li,
+.filter-container .vertical-filters .vertical-filters-header :not(.categories-list),
+.filter-container .vertical-filters .vertical-filters-header .categories-list label {
+    list-style: none;
+    border-bottom: none;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+
+.filter-container :first-child {
+    border-bottom: 1px solid #e9e9ed;
+    padding-bottom: 2em;
+    margin-bottom: 0px;
+}
+
+.categories-list mat-checkbox {
+    font-weight: 300;
+    padding-left: 0px;
+}
+
+.categories-list .mat-checkbox-inner-container {
+    margin-right: 13px;
+}
+
+.categories-num {
+    color: #94969f;
+    font-size: 11px;
+    margin-left: 4px;
+}

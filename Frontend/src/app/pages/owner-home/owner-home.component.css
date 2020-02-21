@@ -1,0 +1,28 @@
+.owner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  flex-direction: column;
+}
+
+.owner-container div {
+  display: flex;
+  justify-content: space-between;
+  width: 43vw;
+}
+
+.input-field {
+  width: 375px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+mat-radio-group {
+  display: flex;
+  flex-direction: column;
+}

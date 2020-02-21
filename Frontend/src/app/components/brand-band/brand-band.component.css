@@ -1,0 +1,113 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .spacer input {
+    /* border-radius: 1em; */
+    height: 2em;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 25em;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  } 
+
+  .toolbar {
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-brand-color);
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+  }
+
+  .toolbar .img {
+    margin: 0 1.5em;
+    cursor: pointer;
+  }
+
+  .left-pan {
+    height: 104%;
+    transform: skew(-40deg);
+    background-color: #039be5;
+    width: 13em;
+    margin-left: -2em;
+    margin-top: -1px;
+    margin-right: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-pan i {
+    transform: skew(40deg);
+    cursor: pointer;
+  }
+
+  .content {
+    display: flex;
+    margin: 32px auto;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  svg.material-icons {
+    height: 24px;
+    width: auto;
+  }
+
+  svg.material-icons:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: #1976d2;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #125699;
+  }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+
+  }

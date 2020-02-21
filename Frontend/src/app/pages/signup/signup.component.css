@@ -1,0 +1,57 @@
+.signup-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50%;
+  min-width: 40%;
+  border: solid;
+  border: 1px solid #dadce0;
+  border-radius: unset;
+  padding: 3%;
+}
+
+.signup-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.signup-card mat-card-header {
+  margin-bottom: 2em;
+}
+
+.signup-card mat-card-content,
+.email {
+  width: 100% !important;
+}
+
+.signup-card mat-card-content div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-card mat-card-actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 0%;
+}
+
+.signup-card mat-card-actions a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.mat-form-field {
+  width: 25em;
+}
